@@ -14,12 +14,23 @@ const Me = () => {
         </div>
       </div>
       <p className="text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl">
-        I am a Frontend developer with three years experience working with, web
-        development technologies. I work with
+        Hello my name is Unegbu Clinton, I enjoy building stuff that live in the
+        internet. I am a Frontend developer with three years experience working
+        with, web development technologies. I work with
         <span> JAVASCRIPT, React,NextJs, NodeJs,Vite,Redux </span> etc. Also
         comfortable using UI technologies, like FIGMA and it's plugins.
       </p>
-
+      <h3 className="font-semibold text-center my-4">
+        Here are few technologies i have worked with recently:
+      </h3>
+      <ul className=" list">
+        <li>Javascript(ES6)</li>
+        <li>React</li>
+        <li>NextJs</li>
+        <li>NodeJs</li>
+        <li>Redux toolKit</li>
+        <li>Tailwind</li>
+      </ul>
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
     </div>
   );
