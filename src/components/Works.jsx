@@ -17,10 +17,12 @@ const Works = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <div className="flex gap-3 mt-2">
-            <button className="py-3 px-4  font-semibold">Preview</button>
-            <button className="font-semibold py-3 px-4  ">
+            <a href="#" className="py-3 px-4  font-semibold">
+              Preview
+            </a>
+            <a href="#" className="font-semibold py-3 px-4  ">
               <DPIconGit />
-            </button>
+            </a>
           </div>
         </div>
         <div>
@@ -38,15 +40,21 @@ const Works = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div className="flex mt-4 text-sm">
-                  <button className="py-1 px-4  lg:border-onyx font-semibold">
+                  <a
+                    href="#"
+                    className="py-1 px-4  lg:border-onyx font-semibold"
+                  >
                     Preview
-                  </button>
-                  <button className="flex items-center gap-2 font-semibold py-1 px-4 lg:border-onyx ">
+                  </a>
+                  <a
+                    href="#"
+                    className="flex items-center gap-2 font-semibold py-1 px-4 lg:border-onyx "
+                  >
                     <span>
                       <DPIconGItMobile />
                     </span>
                     {/* Github */}
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

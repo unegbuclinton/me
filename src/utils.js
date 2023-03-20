@@ -1,3 +1,5 @@
+import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from "./assets/svgs";
+
 export const biggorilla = {
     companyName: "Biggorrillapps",
     duration: "February 2022- Present",
@@ -71,3 +73,15 @@ export const biggorilla = {
           },
   ]};
  
+ export const navLinks = [
+    { title: "About me", to: "about-me" },
+    { title: "My Experience", to: "experience" },
+    { title: "Projects", to: "works" },
+    { title: "Contact me", to: "contact-me" },
+  ];
+
+   export const socialLinks = [
+    { icon: <DPIcongitNav />, to: "https://github.com/unegbuclinton" },
+    { icon: <DPIconLinkedin />, to: "https://linkedin.com/in/clinton-unegbu" },
+    { icon:  <DPIconTwitter />, to: "https://twitter.com/_klintonunegbu" },
+  ];

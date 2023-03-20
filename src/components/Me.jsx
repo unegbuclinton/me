@@ -14,12 +14,25 @@ const Me = () => {
         </div>
       </div>
       <p className="text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl">
-        Hello my name is Unegbu Clinton, I enjoy building stuff that live in the
-        internet. I am a Frontend developer with three years experience working
-        with, web development technologies. I work with
-        <span> JAVASCRIPT, React,NextJs, NodeJs,Vite,Redux </span> etc. Also
-        comfortable using UI technologies, like FIGMA and it's plugins.
+        I statred my tech journey in 2020 where I joined a small team of
+        community learning about the web, that fueled my interest about the web
+        and it's superpowers. <br /> Fast forward to today i have had the
+        opportunity to work in great teams like{" "}
+        <a className="metag" href="https://www.curacel.co/">
+          Curacel
+        </a>
+        ,{" "}
+        <a className="metag" href="https://www.biggorillaapps.com/">
+          Biggorrillapps
+        </a>
+        ,{" "}
+        <a className="metag" href="https://zuri.team/">
+          zuri
+        </a>{" "}
+        My goal these days is building products for the digital world with
+        quality, and provide unique digital experienece to users
       </p>
+
       <h3 className="font-semibold text-center my-4">
         Here are few technologies i have worked with recently:
       </h3>

@@ -2,6 +2,7 @@ import React from "react";
 import "./comp.css";
 import me from "../assets/images/me.png";
 import { TypeAnimation } from "react-type-animation";
+import Button from "./Button";
 const Hero = () => {
   return (
     <div id="hero">
@@ -16,27 +17,21 @@ const Hero = () => {
             <h1 className=" text-2xl mt-5 font-bold">HI,</h1>
             <h2 className=" text-2xl font-bold">I'm Clinton a</h2>
             <TypeAnimation
-              // Same String at the start will only be typed once, initially
               sequence={["Frontend Developer", 1000, "UI Designer", 1500]}
-              speed={50} // Custom Speed from 1-99 - Default Speed: 40
+              speed={50}
               style={{ fontSize: "24px", fontWeight: "900" }}
-              wrapper="span" // Animation will be rendered as a <span>
-              repeat={Infinity} // Repeat this Animation Sequence infinitely
+              wrapper="span"
+              repeat={Infinity}
             />
-            {/* <h3 className=" text-2xl font-extrabold">Frontend Developer</h3> */}
             <p className=" my-5 lg:max-w-[400px]">
-              {/* I build products for the digital world with quality, and provide
-              unique digital experienece to users. */}
               Hello I am Unegbu Clinton, I love and appreciate really great
               design but more importantly I enjoy the process of bringing them
               to live and the satisfaction of seeing people using them.
             </p>
-            <p className="font-semibold text-sm">Let's work together?</p>
+            <p className="font-semibold text-sm">Let's work together</p>
           </div>
           <div className="w-full flex justify-center lg:justify-start">
-            <button className="p-2 text-sm font-semibold border border-onyx mt-3 rounded-lg">
-              GET IN TOUCH
-            </button>
+            <Button text={"Get in Touch"} className="mt-5" />
           </div>
         </div>
       </div>

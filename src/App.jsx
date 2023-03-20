@@ -5,6 +5,7 @@ import Me from "./components/Me";
 import img from "./assets/images/me.png";
 import Experience from "./components/Experience";
 import Works from "./components/Works";
+import Contact from "./components/Contact";
 const App = () => {
   return (
     <div className="h-screen font-roboto text-onyx lg:pt-20 bg-flash-white">
@@ -20,6 +21,7 @@ const App = () => {
         <Experience />
         <Me />
         <Works />
+        <Contact />
       </div>
     </div>
   );
