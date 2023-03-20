@@ -1,13 +1,13 @@
 import React from "react";
-import { DPIconGithub, DPIconLinkedin, DPIconTwitter } from "../assets/svgs";
+import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from "../assets/svgs";
 
 const Socials = () => {
   return (
-    <div className=" flex flex-col gap-5 fixed top-[35%] right-3 lg:right-10 z-50">
+    <div className="bg-transparent flex flex-col gap-5 fixed top-[60%] left-3 lg:left-10 z-[5]">
       <a href="https://github.com/unegbuclinton">
-        <DPIconGithub />
+        <DPIcongitNav />
       </a>
-      <a href="linkedin.com/in/clinton-unegbu">
+      <a href="https://linkedin.com/in/clinton-unegbu">
         <DPIconLinkedin />
       </a>
       <a href="https://twitter.com/_klintonunegbu">

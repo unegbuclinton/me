@@ -4,7 +4,7 @@ import me from "../assets/images/me.png";
 
 const Me = () => {
   return (
-    <div className="mt-16">
+    <div id="about-me" className="mt-16">
       <h1 className="font-extrabold text-lg lg:text-3xl text-center">
         About Me
       </h1>

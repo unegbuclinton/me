@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const Tab = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="flex flex-col lg:flex-row">
-      <div className=" w-full overflow-auto flex mb-10 lg:mb-0 lg:block lg:border-l border-grey mr-5">
+    <div className="flex flex-col gap-5 lg:flex-row">
+      <div className="overflow-auto lg:overflow-visible flex mb-10 lg:mb-0 lg:block lg:border-l border-grey mr-5">
         {tabs?.map((tab, index) => (
           <div key={index}>
             <button

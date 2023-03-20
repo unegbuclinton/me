@@ -7,14 +7,14 @@ import Experience from "./components/Experience";
 import Works from "./components/Works";
 const App = () => {
   return (
-    <div className=" h-screen overflow-y-auto font-roboto bg-flash-white text-onyx px-4 lg:px-6 ">
+    <div className="h-screen font-roboto text-onyx lg:pt-20 bg-flash-white">
+      <Nav />
       <img
         src={img}
-        alt=""
-        className="fixed opacity-10 top[-22px] right-[-100px] lg:w-[65%] lg:right-[-211px] lg:top-[-70px] xl:right-[-275px] xl:top-[-84px] 2xl:right-[-390px] 2xl:top-[-84px]"
+        alt="me"
+        className="fixed opacity-10 top[-22px] right-[-100px] lg:w-[65%] xl:w-[55%] lg:right-[-211px] lg:top-[-70px] xl:right-[-275px] xl:top-[91px] 2xl:right-[-390px] 2xl:top-[-84px] z-[1]"
       />
-      <div className="relative overflow-x-hidden">
-        <Nav />
+      <div className="relative px-4 lg:px-6 pb-24 overflow-x-hidden">
         <Hero />
         <Socials />
         <Experience />

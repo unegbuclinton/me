@@ -4,7 +4,7 @@ import me from "../assets/images/me.png";
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
-    <>
+    <div id="hero">
       <div className=" lg:flex items-center pb-6">
         <div className="flex justify-center pt-20 flex-1">
           <div className="img-container">
@@ -25,8 +25,11 @@ const Hero = () => {
             />
             {/* <h3 className=" text-2xl font-extrabold">Frontend Developer</h3> */}
             <p className=" my-5 lg:max-w-[400px]">
-              I build products for the digital World with quality, and provide
-              unique digital experienece to users.
+              {/* I build products for the digital world with quality, and provide
+              unique digital experienece to users. */}
+              Hello I am Unegbu Clinton, I love and appreciate really great
+              design but more importantly I enjoy the process of bringing them
+              to live and the satisfaction of seeing people using them.
             </p>
             <p className="font-semibold text-sm">Let's work together?</p>
           </div>
@@ -38,7 +41,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
-    </>
+    </div>
   );
 };
 

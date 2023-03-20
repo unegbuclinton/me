@@ -5,3 +5,6 @@ export { ReactComponent as DPIconLive } from "./live.svg";
 export { ReactComponent as DPIconGit } from "./newGit.svg";
 export { ReactComponent as DPIconMenu } from "./menu.svg";
 export { ReactComponent as DPIconClose } from "./closeIcon.svg";
+export { ReactComponent as DPIconGItMobile } from "./githubMobile.svg";
+
+export { ReactComponent as DPIcongitNav } from "./gitNav.svg";

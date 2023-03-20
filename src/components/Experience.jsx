@@ -14,7 +14,7 @@ const Experience = () => {
     { title: "Fiver ", component: <WorkTemplate works={fiver} /> },
   ];
   return (
-    <div className="lg:px-24 max-w-[985px] my-0 mx-auto">
+    <div id="experience" className="lg:px-24 max-w-[985px] my-0 mx-auto">
       <h1 className="font-extrabold text-lg lg:text-3xl text-center my-10">
         Experience
       </h1>
