@@ -9,10 +9,11 @@ const Contact = () => {
       </h3>
       <h1 className="font-semibold text-3xl lg:text-xl">Get in Touch</h1>
       <p className="mt-3 mb-7 lg:mb-4">
-        I’m currently available for new opportunities, my inbox is always open.
-        Whether you have a question or open role, I’ll get back to you!
+        I’m currently open to new opportunities.If you Further questions or
+        considering me for a role please leave a message and I'll get back to
+        you as soon as I can.
       </p>
-      <a className=" p-2 text-sm font-semibold border border-onyx hover:bg-onyx hover:text-flash-white rounded-lg w-[60%] ">
+      <a className="p-2 text-sm font-semibold border border-onyx hover:bg-onyx hover:text-flash-white rounded-lg w-[60%] ">
         Drop a Message
       </a>
     </div>
