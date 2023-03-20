@@ -80,8 +80,4 @@ export const biggorilla = {
     { title: "Contact me", to: "contact-me" },
   ];
 
-   export const socialLinks = [
-    { icon: <DPIcongitNav />, to: "https://github.com/unegbuclinton" },
-    { icon: <DPIconLinkedin />, to: "https://linkedin.com/in/clinton-unegbu" },
-    { icon:  <DPIconTwitter />, to: "https://twitter.com/_klintonunegbu" },
-  ];
+  
