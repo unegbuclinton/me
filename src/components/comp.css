@@ -164,7 +164,7 @@ span{
 
 
 .mobile-work__img::before{
- background-color: rgba(0, 0, 0, 0.75);
+ background-color: rgba(0, 0, 0, 0.8);
   content: "";
   height: 100%;
   position: absolute;

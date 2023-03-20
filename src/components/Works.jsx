@@ -4,12 +4,12 @@ import img from "../assets/images/project1.png";
 import "./comp.css";
 const Works = () => {
   return (
-    <div id="works" className="mt-16 lg:mx-auto lg:w-[80%] text-onyx">
-      <h1 className="font-extrabold text-lg lg:text-3xl text-center my-20">
+    <div id="works" className="my-16 lg:mx-auto lg:w-[80%] text-onyx">
+      <h1 className="font-extrabold text-lg lg:text-3xl text-center mb-5 lg:my-20">
         Some Things I’ve Built
       </h1>
 
-      <div className="flex justify-around items-center mb-16 lg:mb-24">
+      <div className="flex justify-around items-center lg:mb-24">
         <div className="hidden lg:block max-w-[600px]">
           <h2 className="text-3xl font-extrabold py-2">Scientific Calc</h2>
           <p>
@@ -37,7 +37,7 @@ const Works = () => {
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div className="flex gap-3 mt-4 text-sm">
+                <div className="flex mt-4 text-sm">
                   <button className="py-1 px-4  lg:border-onyx font-semibold">
                     Preview
                   </button>
@@ -54,7 +54,7 @@ const Works = () => {
         </div>
       </div>
 
-      <p className="text-center font-semibold text-2xl lg:mt-10 cursor-pointer hover:underline">
+      <p className="text-center mt-3 font-medium text-sm lg:mt-10 cursor-pointer hover:underline">
         View the archives
       </p>
     </div>
