@@ -8,11 +8,11 @@ const Tab = ({ tabs }) => {
         {tabs?.map((tab, index) => (
           <div key={index}>
             <button
-              //   active={activeTab === index}
               className={` ${
                 activeTab === index ? "active-tab-button" : "tab-button"
               }`}
               onClick={() => {
+                console.log("first");
                 setActiveTab(index);
               }}
             >
