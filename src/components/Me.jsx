@@ -14,27 +14,28 @@ const Me = () => {
         </div>
       </div>
       <p className="text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl">
-        I started my tech journey in 2020 where I joined a small team of
-        community learning about the web, that fueled my interest about the web
-        and it's superpowers. <br /> Fast forward to today i have had the
-        opportunity to work in great teams like{" "}
+        I started my Tech journey in 2020 where I joined a small Tech community.
+        Being part of the team fueled my interest about the Web, it's
+        superpowers and how it can be used to improve life for others. Fast
+        forward to today, I have had the opportunity to work with great teams
+        like{" "}
         <a className="metag" href="https://www.curacel.co/">
           Curacel
         </a>
         ,{" "}
         <a className="metag" href="https://www.biggorillaapps.com/">
           Biggorrillapps
-        </a>
-        ,{" "}
-        <a className="metag" href="https://zuri.team/">
-          zuri
         </a>{" "}
-        My goal these days is building products for the digital world with
-        quality, and provide unique digital experienece to users
+        &{" "}
+        <a className="metag" href="https://zuri.team/">
+          Zuri. <br />
+        </a>
+        . My goal is to continue building quality products for digital
+        communities while providing a unique immersive experience for users.
       </p>
 
       <h3 className="font-semibold text-center my-4">
-        Here are few technologies i have worked with recently:
+        Here are few technologies I have worked with recently:
       </h3>
       <ul className=" list">
         <li>Javascript(ES6)</li>

@@ -3,6 +3,7 @@ import "./comp.css";
 import me from "../assets/images/me.png";
 import { TypeAnimation } from "react-type-animation";
 import Button from "./Button";
+import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div id="hero">
@@ -31,7 +32,16 @@ const Hero = () => {
             <p className="font-semibold text-sm">Let's work together</p>
           </div>
           <div className="w-full flex justify-center lg:justify-start">
-            <Button text={"Get in Touch"} className="mt-5" />
+            <Link
+              to="contact-me"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="p-2 text-sm font-semibold border border-onyx hover:bg-onyx hover:text-flash-white rounded-lg"
+            >
+              Get in Touch
+            </Link>
           </div>
         </div>
       </div>
