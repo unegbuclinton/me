@@ -26,7 +26,7 @@ const Hero = () => {
             <p className=" my-5 lg:max-w-[400px]">
               Hello I am Unegbu Clinton, I love and appreciate really great
               design but more importantly I enjoy the process of bringing them
-              to live and the satisfaction of seeing people using them.
+              to life and the satisfaction of seeing people using them.
             </p>
             <p className="font-semibold text-sm">Let's work together</p>
           </div>

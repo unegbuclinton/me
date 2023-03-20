@@ -14,7 +14,7 @@ const Me = () => {
         </div>
       </div>
       <p className="text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl">
-        I statred my tech journey in 2020 where I joined a small team of
+        I started my tech journey in 2020 where I joined a small team of
         community learning about the web, that fueled my interest about the web
         and it's superpowers. <br /> Fast forward to today i have had the
         opportunity to work in great teams like{" "}
