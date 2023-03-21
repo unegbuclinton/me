@@ -121,6 +121,11 @@ span{
     transition: .3s ease-in;
 }
 
+.tab-button:hover{
+    background-color: rgba(129,135,140,0.5);
+    color: #FFF;
+}
+
 .metag{
 text-decoration: underline;
 }
@@ -176,6 +181,22 @@ text-decoration: underline;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.hang-email{
+    writing-mode: vertical-rl
+}
+
+.hang-email::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color:#343A40;
+    bottom: -100px;
+    right: 17px;
 }
 @media (min-width: 1024px) {
     .about-img-container{

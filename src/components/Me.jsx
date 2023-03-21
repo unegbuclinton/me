@@ -44,6 +44,8 @@ const Me = () => {
         <li>NodeJs</li>
         <li>Redux toolKit</li>
         <li>Tailwind</li>
+        <li>Styled components</li>
+        <li>Figma</li>
       </ul>
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
     </div>

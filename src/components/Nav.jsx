@@ -20,7 +20,7 @@ const Nav = () => {
     <div
       className={` fixed top-0 w-full  flex justify-end bg-flash-white lg:pb-5 lg:pt-3 z-10`}
     >
-      <div className="hidden w-full lg:flex justify-center items-center gap-6 text-onyx text-base font-bold pt-5 ">
+      <div className="hidden w-full md:flex justify-center items-center gap-6 text-onyx text-base font-bold pt-5 ">
         {navLinks?.map(({ title, to }, idx) => {
           return (
             <Link
