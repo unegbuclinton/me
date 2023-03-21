@@ -3,6 +3,7 @@ import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from "./assets/svgs";
 export const biggorilla = {
     companyName: "Biggorrillapps",
     duration: "February 2022- Present",
+    history: "Biggorillaaps is a development agency in London consisting of developers and designers with great passion and skillset tilted towards the development of client's ideas and work.",
     duties: [
         {
             tasks:
@@ -21,6 +22,7 @@ export const biggorilla = {
   export const fiver ={
     companyName: "Fiver",
     duration: "Sep 2021 - April 2022",
+    history: " In this period I worked with clients on freelance, building and bringing to life client's idea. It also involves revamping and optimizing codes",
     duties: [
         {
             tasks:
@@ -40,6 +42,7 @@ export const biggorilla = {
   export const curacel ={
     companyName: "Curacel",
     duration: "March 2020 - April 2021",
+    history: " Curacel is an insurtech startup that deals with claim automation and   fraud detection.Also raised a seed funding of $3million.",
     duties: [
         {
             tasks:
@@ -58,6 +61,7 @@ export const biggorilla = {
   export const zuri ={
     companyName: " Frontend developer @ Zuri",
     duration: "April 2019 - August 2019",
+    history: "Zuri is a global talent acquisition company that helps organizations from around the world discover and hire the best talent availabl.",
     duties: [
         {
             tasks:
