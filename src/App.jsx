@@ -8,7 +8,17 @@ import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MoreInfo from "./components/MoreInfo";
+import { useEffect, useState } from "react";
+import PreLoader from "./components/Preloader/PreLoader";
 const App = () => {
+  const [delay, setDelay] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDelay(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  });
+  if (delay) return <PreLoader />;
   return (
     <div className="h-screen font-roboto text-onyx lg:pt-20 bg-flash-white">
       <Nav />
