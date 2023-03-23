@@ -1,5 +1,5 @@
 import React from "react";
-import { DPIconGit, DPIconGItMobile } from "../assets/svgs";
+import { DPIconGit, DPIconGItMobile, DPIconPreview } from "../assets/svgs";
 import img from "../assets/images/project1.png";
 import "./comp.css";
 const Works = () => {
@@ -17,11 +17,17 @@ const Works = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <div className="flex gap-3 mt-2">
-            <a href="#" className="py-3 px-4  font-semibold">
-              Preview
-            </a>
-            <a href="#" className="font-semibold py-3 px-4  ">
+            <a
+              href="#"
+              className="py-3 px-2 font-semibold hover:-translate-y-2 transition-all"
+            >
               <DPIconGit />
+            </a>
+            <a
+              href="#"
+              className="font-semibold py-3 px-2 hover:-translate-y-2 transition-all"
+            >
+              <DPIconPreview />
             </a>
           </div>
         </div>
@@ -44,7 +50,7 @@ const Works = () => {
                     href="#"
                     className="py-1 px-4  lg:border-onyx font-semibold"
                   >
-                    Preview
+                    <DPIconPreview />
                   </a>
                   <a
                     href="#"

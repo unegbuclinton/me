@@ -37,7 +37,7 @@ const Me = () => {
       <h3 className="font-semibold text-center my-4">
         Here are few technologies I have worked with recently:
       </h3>
-      <ul className=" list">
+      <ul className="pl-12 list">
         <li>Javascript(ES6)</li>
         <li>React</li>
         <li>NextJs</li>

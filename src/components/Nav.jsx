@@ -30,6 +30,7 @@ const Nav = () => {
               smooth={true}
               offset={-100}
               duration={500}
+              activeClass="border-b-2 border-[#343A40]"
               className="cursor-pointer hover:border-b-2 border-black transition-all"
             >
               {title}
@@ -60,10 +61,11 @@ const Nav = () => {
                 offset={-100}
                 duration={500}
                 onClick={closeMenu}
-                className="text-center mb-3"
+                activeClass="border-b-2 "
+                className="text-center mb-5"
               >
                 <p className="text-white -text-sm">{`0${idx + 1}.`}</p>
-                <p className="text-white pb-4">{title}</p>
+                <p className="text-white">{title}</p>
               </Link>
             );
           })}

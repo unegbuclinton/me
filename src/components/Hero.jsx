@@ -2,7 +2,6 @@ import React from "react";
 import "./comp.css";
 import me from "../assets/images/me.png";
 import { TypeAnimation } from "react-type-animation";
-import Button from "./Button";
 import { Link } from "react-scroll";
 const Hero = () => {
   return (
@@ -31,7 +30,7 @@ const Hero = () => {
             </p>
             <p className="font-semibold text-sm">Let's work together</p>
           </div>
-          <div className="w-full flex justify-center lg:justify-start">
+          <div className="w-full flex justify-center lg:justify-start mt-5">
             <Link
               to="contact-me"
               spy={true}
