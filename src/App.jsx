@@ -10,14 +10,17 @@ import Footer from "./components/Footer";
 import MoreInfo from "./components/MoreInfo";
 import { useEffect, useState } from "react";
 import PreLoader from "./components/Preloader/PreLoader";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const App = () => {
   const [delay, setDelay] = useState(true);
   useEffect(() => {
+    Aos.init({ duration: 1000 });
     const timer = setTimeout(() => {
       setDelay(false);
     }, 3000);
     return () => clearTimeout(timer);
-  });
+  }, []);
   if (delay) return <PreLoader />;
   return (
     <div className="h-screen font-roboto text-onyx lg:pt-20 bg-flash-white">

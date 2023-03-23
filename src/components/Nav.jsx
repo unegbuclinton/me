@@ -18,26 +18,41 @@ const Nav = () => {
   };
   return (
     <div
-      className={` fixed top-0 w-full  flex justify-end bg-flash-white lg:pb-5 lg:pt-3 z-10`}
+      className={` fixed top-0 w-full px-10 flex justify-end bg-flash-white md:pb-5 lg:pt-3 z-10`}
     >
-      <div className="hidden w-full md:flex justify-center items-center gap-6 text-onyx text-base font-bold pt-5 ">
-        {navLinks?.map(({ title, to }, idx) => {
-          return (
-            <Link
-              key={idx}
-              to={to}
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              activeClass="border-b-2 border-[#343A40]"
-              className="cursor-pointer hover:border-b-2 border-black transition-all"
-            >
-              {title}
-            </Link>
-          );
-        })}
-        <Button text={"Resume"} onClick={getPdf} />
+      <div className="hidden w-full md:flex justify-between items-center gap-6 text-onyx text-base font-bold pt-5 ">
+        <Link
+          data-aos="fade-right"
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          activeClass="border-b border-onyx"
+          className="text-2xl text-onyx font-bold"
+          href="#"
+        >
+          CodeClown
+        </Link>
+        <div>
+          {navLinks?.map(({ title, to, offset }, idx) => {
+            return (
+              <Link
+                key={idx}
+                to={to}
+                spy={true}
+                smooth={true}
+                offset={offset}
+                duration={500}
+                activeClass="border-b-2 border-[#343A40]"
+                className="cursor-pointer hover:border-b-2 md:ml-5 lg:ml-10 border-black transition-all"
+              >
+                {title}
+              </Link>
+            );
+          })}
+          <Button text={"Resume"} onClick={getPdf} className="ml-10" />
+        </div>
       </div>
       <div
         className=" fixed bg-flash-white shadow-xxl rounded-[5px] top-10 left-6 z-20 md:hidden "

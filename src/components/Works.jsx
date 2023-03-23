@@ -38,12 +38,18 @@ const Works = () => {
           </div>
         </div>
         <div>
-          <div className="hidden lg:flex items-center pl-10 work-img">
+          <div
+            data-aos="flip-left"
+            className="hidden lg:flex items-center pl-10 work-img"
+          >
             <img src={img} alt="" />
           </div>
           {/* mobile view */}
           <div>
-            <div className={` relative h-[250px] lg:hidden mobile-work__img`}>
+            <div
+              data-aos="flip-left"
+              className={` relative h-[250px] lg:hidden mobile-work__img`}
+            >
               <img src={img} alt="" className="w-full h-full object-cover" />
               <div className="absolute top-10 left-2 right-1 text-white">
                 <h2 className="text-lg font-semibold py-2">Scientific Calc</h2>

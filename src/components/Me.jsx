@@ -13,7 +13,12 @@ const Me = () => {
           <img src={me} alt="" className="about-me-img" />
         </div>
       </div>
-      <p className="text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl">
+      <p
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className="text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl"
+      >
         I started my Tech journey in 2020 where I joined a small Tech community.
         Being part of the team fueled my interest about the Web, it's
         superpowers and how it can be used to improve life for others. Fast
@@ -38,14 +43,14 @@ const Me = () => {
         Here are few technologies I have worked with recently:
       </h3>
       <ul className="pl-12 list">
-        <li>Javascript(ES6)</li>
-        <li>React</li>
-        <li>NextJs</li>
-        <li>NodeJs</li>
-        <li>Redux toolKit</li>
-        <li>Tailwind</li>
-        <li>Styled components</li>
-        <li>Figma</li>
+        <li data-aos="fade-right">Javascript(ES6)</li>
+        <li data-aos="fade-left">React</li>
+        <li data-aos="fade-right">NextJs</li>
+        <li data-aos="fade-left">NodeJs</li>
+        <li data-aos="fade-right">Redux toolKit</li>
+        <li data-aos="fade-left">Tailwind</li>
+        <li data-aos="fade-right">Styled components</li>
+        <li data-aos="fade-left">Figma</li>
       </ul>
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
     </div>

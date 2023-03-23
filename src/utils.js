@@ -8,14 +8,17 @@ export const biggorilla = {
         {
             tasks:
               "Spearheaded a team of frontend engineers to build and implement a ﬁntech project, consuming REST API using React.js, styled component for the component styling and Redux Toolkit  for the state management..",
+              timing: "1500",
           },
           {
             tasks:
               " Developed and maintained code for inhouse data analytic  web application using Node.js & Express.Js for the server side application, MongoDB for the database, EJS & Bootstrap for the layouts increasing company sales revenue.",
+              timing: "2000",
           },
           {
             tasks:
               "Developed dynamic wordpress template using HTML5, CSS3 and javascript.",
+              timing: "2500",
           },
   ]};
 
@@ -78,10 +81,10 @@ export const biggorilla = {
   ]};
  
  export const navLinks = [
-    { title: "About me", to: "about-me" },
-    { title: "My Experience", to: "experience" },
-    { title: "Projects", to: "works" },
-    { title: "Contact me", to: "contact-me" },
+    { title: "My Experience", offset:-100, to: "experience" },
+    { title: "About me", offset:-100, to: "about-me" },
+    { title: "Projects", offset:-100, to: "works" },
+    { title: "Contact me", offset:-100, to: "contact-me" },
   ];
 
   
