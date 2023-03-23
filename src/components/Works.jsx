@@ -1,5 +1,10 @@
 import React from "react";
-import { DPIconGit, DPIconGItMobile, DPIconPreview } from "../assets/svgs";
+import {
+  DPIconGit,
+  DPIconGItMobile,
+  DPIconPreview,
+  DPIconPreviewMobile,
+} from "../assets/svgs";
 import img from "../assets/images/project1.png";
 import "./comp.css";
 const Works = () => {
@@ -16,6 +21,7 @@ const Works = () => {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+          <p className="mt-5 font-medium">React, Tailwind, Axios, Redux</p>
           <div className="flex gap-3 mt-2">
             <a
               href="#"
@@ -45,16 +51,19 @@ const Works = () => {
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
+                <p className="mt-5 font-medium">
+                  React, Tailwind, Axios, Redux
+                </p>
                 <div className="flex mt-4 text-sm">
                   <a
                     href="#"
-                    className="py-1 px-4  lg:border-onyx font-semibold"
+                    className="py-1 px-2  lg:border-onyx font-semibold"
                   >
-                    <DPIconPreview />
+                    <DPIconPreviewMobile />
                   </a>
                   <a
                     href="#"
-                    className="flex items-center gap-2 font-semibold py-1 px-4 lg:border-onyx "
+                    className="flex items-center gap-2 font-semibold py-1 px-2 lg:border-onyx "
                   >
                     <span>
                       <DPIconGItMobile />

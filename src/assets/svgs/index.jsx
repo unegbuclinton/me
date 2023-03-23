@@ -7,4 +7,5 @@ export { ReactComponent as DPIconMenu } from "./menu.svg";
 export { ReactComponent as DPIconClose } from "./closeIcon.svg";
 export { ReactComponent as DPIconGItMobile } from "./githubMobile.svg";
 export { ReactComponent as DPIconPreview } from "./preview.svg";
+export { ReactComponent as DPIconPreviewMobile } from "./previewMobile.svg";
 export { ReactComponent as DPIcongitNav } from "./gitNav.svg";
