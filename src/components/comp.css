@@ -165,11 +165,11 @@ text-decoration: underline;
 }
 
 .slides{
-    transform: translate(0,100%);
+    transform: translate(-70%);
     transition: .2s ease-in;
 }
 .no-slides{
-    transform: translate(-66%);
+    transform: translate(-200%);
     transition: .2s ease-in;
 }
 

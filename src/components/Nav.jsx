@@ -58,11 +58,11 @@ const Nav = () => {
         className=" fixed bg-flash-white shadow-xxl rounded-[5px] top-10 left-6 z-20 md:hidden "
         onClick={toggleMenu}
       >
-        {open ? <DPIconClose /> : <DPIconMenu />}
+        {!open ? <DPIconMenu /> : <DPIconClose />}
       </div>
       <div
         className={`${
-          open ? "no-slides" : "slides"
+          open ? "slides" : "no-slides"
         } flex fixed h-screen w-[60%] top-0 right-0 bg-onyx z-[10] lg:hidden `}
       >
         <div className="w-full flex flex-col justify-center items-center">

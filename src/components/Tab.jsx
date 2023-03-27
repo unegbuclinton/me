@@ -4,7 +4,7 @@ const Tab = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <div className="flex flex-col gap-5 lg:flex-row">
-      <div className="overflow-auto lg:overflow-visible flex mb-10 lg:mb-0 lg:block lg:border-l border-grey mr-5">
+      <div className="overflow-auto lg:overflow-visible flex mb-10 lg:mb-0 lg:block lg:border-l border-grey mr-5 pb-3">
         {tabs?.map((tab, index) => (
           <div key={index}>
             <button
