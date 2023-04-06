@@ -5,8 +5,8 @@ import {
   DPIconPreview,
   DPIconPreviewMobile,
 } from "../assets/svgs";
-import img from "../assets/images/project1.png";
 import "./comp.css";
+import { projects } from "../utils/work";
 const Works = () => {
   return (
     <div id="works" className="my-16 lg:mx-auto lg:w-[80%] text-onyx">
@@ -14,72 +14,76 @@ const Works = () => {
         Some Things I’ve Built
       </h1>
 
-      <div className="flex justify-around items-center lg:mb-24">
-        <div className="hidden lg:block max-w-[600px]">
-          <h2 className="text-3xl font-extrabold py-2">Scientific Calc</h2>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <p className="mt-5 font-medium">React, Tailwind, Axios, Redux</p>
-          <div className="flex gap-3 mt-2">
-            <a
-              href="#"
-              className="py-3 px-2 font-semibold hover:-translate-y-2 transition-all"
-            >
-              <DPIconGit />
-            </a>
-            <a
-              href="#"
-              className="font-semibold py-3 px-2 hover:-translate-y-2 transition-all"
-            >
-              <DPIconPreview />
-            </a>
-          </div>
-        </div>
-        <div>
-          <div
-            data-aos="flip-left"
-            className="hidden lg:flex items-center pl-10 work-img"
-          >
-            <img src={img} alt="" />
-          </div>
-          {/* mobile view */}
-          <div>
-            <div
-              data-aos="flip-left"
-              className={` relative h-[250px] lg:hidden mobile-work__img`}
-            >
-              <img src={img} alt="" className="w-full h-full object-cover" />
-              <div className="absolute top-10 left-2 right-1 text-white">
-                <h2 className="text-lg font-semibold py-2">Scientific Calc</h2>
-                <p className="text-sm">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p className="mt-5 font-medium">
-                  React, Tailwind, Axios, Redux
-                </p>
-                <div className="flex mt-4 text-sm">
+      <div className="lg:mb-24">
+        {projects?.map(({ img, title, desc, technologies, repo, live }) => {
+          return (
+            <div className="wrapper hidden lg:flex mb-24">
+              <div>
+                <h2 className="text-3xl font-extrabold py-2">{title}</h2>
+                <p>{desc}</p>
+                <p className="mt-5 font-semibold">{technologies}</p>
+                <div className="flex gap-3 mt-2 mx-5">
+                  {repo.length > 1 && (
+                    <a
+                      href={repo}
+                      className="py-3 px-2 font-semibold hover:-translate-y-2 transition-all"
+                    >
+                      <DPIconGit />
+                    </a>
+                  )}
                   <a
-                    href="#"
-                    className="py-1 px-2  lg:border-onyx font-semibold"
+                    href={live}
+                    className="font-semibold py-3 px-2 hover:-translate-y-2 transition-all"
                   >
-                    <DPIconPreviewMobile />
-                  </a>
-                  <a
-                    href="#"
-                    className="flex items-center gap-2 font-semibold py-1 px-2 lg:border-onyx "
-                  >
-                    <span>
-                      <DPIconGItMobile />
-                    </span>
-                    {/* Github */}
+                    <DPIconPreview />
                   </a>
                 </div>
               </div>
+              <div
+                data-aos="flip-left"
+                className="hidden lg:flex items-center work-img"
+              >
+                <img src={img} alt="" />
+              </div>
             </div>
-          </div>
+          );
+        })}
+
+        <div>
+          {/* mobile view */}
+
+          {projects?.map(({ img, title, desc, technologies, repo, live }) => (
+            <div className="mb-4">
+              <div
+                data-aos="flip-left"
+                className={` relative h-[250px] lg:hidden mobile-work__img`}
+              >
+                <img src={img} alt="" className="w-full h-full object-cover" />
+                <div className="absolute top-10 left-2 right-1 text-white">
+                  <h2 className="text-lg font-semibold py-2">{title}</h2>
+                  <p className="text-sm">{desc}</p>
+                  <p className="mt-5 font-medium">{technologies}</p>
+                  <div className="flex mt-4 text-sm">
+                    <a
+                      href={live}
+                      className="py-1 px-2  lg:border-onyx font-semibold"
+                    >
+                      <DPIconPreviewMobile />
+                    </a>
+                    <a
+                      href={repo}
+                      className="flex items-center gap-2 font-semibold py-1 px-2 lg:border-onyx "
+                    >
+                      <span>
+                        <DPIconGItMobile />
+                      </span>
+                      {/* Github */}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 

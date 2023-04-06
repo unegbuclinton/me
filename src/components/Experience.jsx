@@ -1,5 +1,5 @@
 import React from "react";
-import { biggorilla, curacel, zuri, fiver } from "../utils";
+import { biggorilla, curacel, zuri, fiver } from "../utils/utils";
 import Tab from "./Tab";
 import WorkTemplate from "./WorkTemplate";
 

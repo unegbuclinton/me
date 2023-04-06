@@ -1,4 +1,4 @@
-import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from "./assets/svgs";
+import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from "../assets/svgs";
 
 export const biggorilla = {
     companyName: "Biggorrillapps",

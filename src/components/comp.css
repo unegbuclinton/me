@@ -140,6 +140,7 @@ text-decoration: underline;
     position: relative;
     height: 350px;
     width: 95%;
+    background-color: #343A40;
     object-fit: cover;
      z-index: 1;
     
@@ -162,6 +163,21 @@ text-decoration: underline;
     right: -37px;
     z-index:-1;
 
+}
+.wrapper:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.wrapper:nth-child(even) .work-img::after{
+    content:"";
+    position:absolute;
+    background-color:transparent ;
+    width: 90%;
+    height: 97%;
+    top: -21px;
+    border: 2px solid #343A40;
+    left: -37px;
+    z-index:-1;
 }
 
 .slides{

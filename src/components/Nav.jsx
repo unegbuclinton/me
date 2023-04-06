@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { DPIconClose, DPIconMenu } from "../assets/svgs";
-import { navLinks } from "../utils";
+import { navLinks } from "../utils/utils";
 import Button from "./Button";
 import "./comp.css";
 import pdfFile from "../document/resume.pdf";
