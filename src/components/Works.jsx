@@ -17,7 +17,7 @@ const Works = () => {
       <div className="lg:mb-24">
         {projects?.map(({ img, title, desc, technologies, repo, live }) => {
           return (
-            <div className="wrapper hidden lg:flex mb-24">
+            <div className="wrapper hidden lg:flex gap-[12px] mb-24">
               <div>
                 <h2 className="text-3xl font-extrabold py-2">{title}</h2>
                 <p>{desc}</p>
