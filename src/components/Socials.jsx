@@ -10,8 +10,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 const Socials = () => {
-  const [resize, setResize] = useState(false);
   const iconSize = 20;
+  const [theme, setTheme] = useState(false);
+  const [screenSize, setScreenSize] = useState(window.innerWidth);
 
   const socialLinks = [
     {
@@ -27,7 +28,7 @@ const Socials = () => {
       to: "https://twitter.com/_klintonunegbu",
     },
   ];
-  const [theme, setTheme] = useState(false);
+
   useEffect(() => {
     if (theme) {
       document.body.classList.add("dark");
@@ -38,11 +39,11 @@ const Socials = () => {
 
   useEffect(() => {
     function handleResize() {
-      if (window.innerWidth > 768) {
-        setResize(false);
-      }
+      setScreenSize(window.innerWidth);
     }
+
     window.addEventListener("resize", handleResize);
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -60,21 +61,25 @@ const Socials = () => {
         );
       })}
 
-      {!theme && (
-        <MdDarkMode
-          size={iconSize}
-          className="mt-5 hover:translate-x-1 hover:shadow-2xl transition-all cursor-pointer"
-          onClick={() => setTheme((theme) => !theme)}
-        />
-      )}
+      {screenSize > 765 && (
+        <>
+          {!theme && (
+            <MdDarkMode
+              size={iconSize}
+              className="mt-5 hover:translate-x-1 hover:shadow-2xl transition-all cursor-pointer"
+              onClick={() => setTheme((theme) => !theme)}
+            />
+          )}
 
-      {theme && (
-        <BsFillBrightnessHighFill
-          size={iconSize}
-          color="#fff"
-          className="mt-5 hover:translate-x-1 hover:shadow-2xl transition-all cursor-pointer"
-          onClick={() => setTheme((theme) => !theme)}
-        />
+          {theme && (
+            <BsFillBrightnessHighFill
+              size={iconSize}
+              color="#fff"
+              className="mt-5 hover:translate-x-1 hover:shadow-2xl transition-all cursor-pointer"
+              onClick={() => setTheme((theme) => !theme)}
+            />
+          )}
+        </>
       )}
     </div>
   );

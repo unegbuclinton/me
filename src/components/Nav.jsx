@@ -41,7 +41,7 @@ const Nav = () => {
 
   function handleClickOutside(event) {
     if (sideNavRef.current && !sideNavRef.current.contains(event.target)) {
-      setOpen((open) => !open);
+      setOpen(false);
     }
   }
   return (
