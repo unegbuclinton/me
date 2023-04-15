@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  DPIconGit,
-  DPIconGItMobile,
-  DPIconPreview,
-  DPIconPreviewMobile,
-} from "../assets/svgs";
 import "./comp.css";
 import { projects } from "../utils/work";
 import { BsBoxArrowUpRight } from "react-icons/bs";
