@@ -23,7 +23,7 @@ const App = () => {
   }, []);
   if (delay) return <PreLoader />;
   return (
-    <div className="h-screen font-roboto text-onyx lg:pt-20 bg-flash-white">
+    <div className="h-screen font-roboto lg:pt-20">
       <Nav />
       <img
         src={img}
