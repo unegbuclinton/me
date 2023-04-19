@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./comp.css";
 import { projects } from "../utils/work";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
+import Modal from "./Modal";
 const Works = () => {
+  const [isShown, setIsShown] = useState(false);
+  const privateRepo = () => {
+    setIsShown(true);
+  };
   return (
     <div id="works" className="my-16 lg:mx-auto lg:w-[80%]">
       <h1 className="font-extrabold text-lg lg:text-3xl text-center mb-5 lg:my-20">
@@ -11,6 +16,15 @@ const Works = () => {
       </h1>
 
       <div className="lg:mb-24">
+        <Modal
+          header="Privacy"
+          isShown={isShown}
+          hide={() => setIsShown(false)}
+        >
+          <div className="py-10 text-xl font-semibold">
+            Sorry due to Policy reasons this repo is Private
+          </div>
+        </Modal>
         {projects?.map(
           ({ img, title, desc, technologies, repo, live }, idx) => {
             return (
@@ -30,6 +44,16 @@ const Works = () => {
                       >
                         <AiFillGithub size={25} />
                       </a>
+                    )}
+                    {repo.length < 1 && (
+                      <button
+                        type="button"
+                        onClick={privateRepo}
+                        href={repo}
+                        className="py-3 px-2 font-semibold hover:-translate-y-2 transition-all"
+                      >
+                        <AiFillGithub size={25} />
+                      </button>
                     )}
                     <a
                       href={live}
@@ -71,15 +95,28 @@ const Works = () => {
                     >
                       <BsBoxArrowUpRight />
                     </a>
-                    <a
-                      href={repo}
-                      className="flex items-center gap-2 font-semibold py-1 px-2 lg:border-onyx "
-                    >
-                      <span>
-                        <AiFillGithub />
-                      </span>
-                      {/* Github */}
-                    </a>
+                    {repo.length < 1 && (
+                      <button
+                        type="button"
+                        onClick={privateRepo}
+                        href={repo}
+                        className="flex items-center gap-2 font-semibold py-1 px-2 lg:border-onyx "
+                      >
+                        <span>
+                          <AiFillGithub />
+                        </span>
+                      </button>
+                    )}
+                    {repo.length > 1 && (
+                      <a
+                        href={repo}
+                        className="flex items-center gap-2 font-semibold py-1 px-2 lg:border-onyx "
+                      >
+                        <span>
+                          <AiFillGithub />
+                        </span>
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
