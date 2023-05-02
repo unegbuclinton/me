@@ -18,7 +18,7 @@ const App = () => {
     Aos.init({ duration: 1000 });
     const timer = setTimeout(() => {
       setDelay(false);
-    }, 3000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
   if (delay) return <PreLoader />;

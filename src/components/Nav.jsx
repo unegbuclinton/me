@@ -91,7 +91,7 @@ const Nav = () => {
       <div
         className={`${
           open ? "slides" : "no-slides"
-        } flex fixed h-screen w-[60%] top-0 right-0 bg-onyx z-[10] lg:hidden `}
+        } flex fixed h-screen w-[60%] top-0 right-0 bg-onyx dark:bg-flash-white  z-[10] lg:hidden `}
       >
         <div
           ref={sideNavRef}
@@ -110,15 +110,17 @@ const Nav = () => {
                 activeClass="border-b-2 "
                 className="text-center mb-5"
               >
-                <p className="text-white -text-sm">{`0${idx + 1}.`}</p>
-                <p className="text-white">{title}</p>
+                <p className="dark:text-onyx text-white -text-sm">{`0${
+                  idx + 1
+                }.`}</p>
+                <p className=" dark:text-onyx text-white">{title}</p>
               </Link>
             );
           })}
           <Button
             text={"Resume"}
             onClick={getPdf}
-            className="border-white text-white font-normal w-[80%] mb-10"
+            className="border-white dark:text-onyx dark:border-onyx text-white font-normal w-[80%] mb-10"
           />
           <div>
             <Switch
