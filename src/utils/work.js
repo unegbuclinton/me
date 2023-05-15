@@ -7,7 +7,7 @@ export const projects = [
     desc: "This is a media platform that enhance the growth of the crypto community, through, posts, crypto pools, crypto predictions, family pool etc",
     technologies: "React, Tailwind css, Redux",
     img: image1,
-    live: "https://facechain.vercel.app/login",
+    live: "https://facechain.vercel.app/",
     repo: "",
   },
 
@@ -24,7 +24,7 @@ export const projects = [
     desc: "Aiode is a platform where you can manage and track your health activities at ease.You can now focus on other activities as your health record is seamlesslly tracked",
     technologies: "React, antd, Redux",
     img: image3,
-    live: "https://www.biggorillaapps.com/",
+    live: "https://develop--legendary-creponne-6e772f.netlify.app/",
     repo: "",
   },
 ];
