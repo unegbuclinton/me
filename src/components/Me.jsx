@@ -44,13 +44,16 @@ const Me = () => {
       </h3>
       <ul className="pl-12 list">
         <li data-aos="fade-right">Javascript(ES6)</li>
+        <li data-aos="fade-right">Typrscript</li>
         <li data-aos="fade-left">React</li>
         <li data-aos="fade-right">NextJs</li>
         <li data-aos="fade-left">NodeJs</li>
         <li data-aos="fade-right">Redux toolKit</li>
         <li data-aos="fade-left">Tailwind</li>
+        <li data-aos="fade-left">React Storybook</li>
         <li data-aos="fade-right">Styled components</li>
         <li data-aos="fade-left">Figma</li>
+        <li data-aos="fade-left">Jest</li>
       </ul>
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
     </div>

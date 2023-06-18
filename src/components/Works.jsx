@@ -4,11 +4,14 @@ import { projects } from "../utils/work";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import Modal from "./Modal";
+import { useNavigate } from "react-router-dom";
 const Works = () => {
   const [isShown, setIsShown] = useState(false);
   const privateRepo = () => {
     setIsShown(true);
   };
+
+  const navigate = useNavigate();
   return (
     <div id="works" className="my-16 lg:mx-auto lg:w-[80%]">
       <h1 className="font-extrabold text-lg lg:text-3xl text-center mb-5 lg:my-20">
@@ -125,7 +128,10 @@ const Works = () => {
         </div>
       </div>
 
-      <p className="text-center mt-3 font-medium text-sm lg:mt-10 cursor-pointer hover:underline">
+      <p
+        onClick={() => navigate("/archives")}
+        className="text-center mt-3 font-medium text-sm lg:mt-10 cursor-pointer hover:underline"
+      >
         View the archives
       </p>
     </div>

@@ -1,10 +1,14 @@
 import React from "react";
-import { biggorilla, curacel, zuri, fiver } from "../utils/utils";
+import { biggorilla, curacel, zuri, fiver, Clamp } from "../utils/utils";
 import Tab from "./Tab";
 import WorkTemplate from "./WorkTemplate";
 
 const Experience = () => {
   const exp = [
+    {
+      title: "Clamp ",
+      component: <WorkTemplate works={Clamp} />,
+    },
     {
       title: "Biggorillaapps ",
       component: <WorkTemplate works={biggorilla} />,
@@ -18,6 +22,7 @@ const Experience = () => {
       <h1 className="font-extrabold text-lg lg:text-3xl text-center my-10">
         Experience
       </h1>
+      <p className="text-sm mb-3 animate-pulse">Swpie right....</p>
       <Tab tabs={exp} />
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
     </div>

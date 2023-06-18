@@ -21,6 +21,7 @@ const Tab = ({ tabs }) => {
           </div>
         ))}
       </div>
+
       <div className="tab-content">
         {tabs && tabs[activeTab] && tabs[activeTab]?.component}
       </div>
