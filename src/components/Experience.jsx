@@ -22,7 +22,7 @@ const Experience = () => {
       <h1 className="font-extrabold text-lg lg:text-3xl text-center my-10">
         Experience
       </h1>
-      <p className="text-sm mb-3 animate-pulse">Swpie right....</p>
+      <p className="text-sm mb-3 animate-pulse">Scroll right....</p>
       <Tab tabs={exp} />
       <div className="w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16" />
     </div>
