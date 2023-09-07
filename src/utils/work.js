@@ -38,7 +38,7 @@ export const projects = [
     technologies: 'REACT, TAILWIND CSS, REDUX',
     img: image1,
     live: 'https://facechain.vercel.app/',
-    repo: '',
+    repo: 'https://github.com/unegbuclinton/facechain',
   },
 
   {
