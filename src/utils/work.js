@@ -5,8 +5,17 @@ import living from '../assets/images/living.png'
 import image4 from '../assets/images/casa.png'
 import tictactoe from '../assets/images/tictactoe.png'
 import loruki from '../assets/images/loruki.png'
+import image5 from '../assets/images/nicelyformed.png'
 import estore from '../assets/images/e-store.png'
 export const projects = [
+  {
+    title: 'Nicelyformed',
+    desc: 'Nicelyformed is AI-powered form builder that helps you create forms in minutes. it used AI to generate forms with users prompt and also gives the user the ability to create form from scratch.',
+    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
+    img: image5,
+    live: 'https://www.nicelyformed.com/',
+    repo: '',
+  },
   {
     title: 'Casa Colombia',
     desc: 'Casa colomiba is a web application designed to give buyers and sellers flexibiliity in the real estate sector to buy and sell their properties, with the help of google map buyers can easily sell property location and also request for tour (Built for the colombian market).',
