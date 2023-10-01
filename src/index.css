@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +12,7 @@
 
 body {
   background-color: #e9ecef;
-  font-family: "Alkatra", "cursive";
+  font-family: 'Alkatra', 'cursive';
   color: #1c1a1a;
 }
 .dark {
@@ -28,4 +28,86 @@ body {
 .toggle-checkbox:checked + .toggle-label {
   @apply: bg-green-400;
   background-color: #e9ecef;
+}
+
+.glass_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 15px;
+  --transparency: 45%;
+  background: color-mix(in srgb, white, transparent var(--transparency));
+  backdrop-filter: blur(3px);
+  color: black;
+  font-weight: 600;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-align: center;
+  --width: 70px;
+  --height: 70px;
+  --margin-top: 10px;
+  width: var(--width);
+  height: var(--height);
+  margin-top: var(--margin-top);
+  --x-space: calc(var(--height) + var(--margin-top));
+  --start-x-position: calc(var(--index) * var(--x-space) * 1);
+  top: calc(var(--start-x-position) - 80px);
+}
+
+.toggle-btn {
+  --transparency: 45%;
+  background: color-mix(in srgb, white, transparent var(--transparency));
+  backdrop-filter: blur(3px);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.glass-wrapper {
+  position: relative;
+}
+
+.glass_button-text_open {
+  color: black;
+  font-weight: 600;
+}
+
+.glass_button-text_closed:not(:last-child) {
+  color: transparent;
+  font-weight: 600;
+}
+
+.glass_button:nth-child(1) {
+  --index: 0;
+  transition: color 1000ms, background 1000ms, top 1000ms;
+}
+.glass_button:nth-child(2) {
+  --index: 1;
+  transition: color 2000ms, background 1500ms, top 1300ms;
+}
+.glass_button:nth-child(3) {
+  --index: 2;
+  transition: color 3000ms, background 2000ms, top 1600ms;
+}
+
+.glass_button:nth-child(4) {
+  --index: 3;
+  transition: color 4000ms, background 2500ms, top 1900ms;
+}
+.glass_button:nth-child(5) {
+  --index: 4;
+  transition: color 4000ms, background 3000ms, top 2100ms;
+}
+.glass_button:nth-child(6) {
+  --index: 5;
+  transition: color 4000ms, background 3000ms, top 2100ms;
+}
+
+@media (max-width: 420px) {
+  .glass_button {
+    font-size: 12px;
+    width: 70px;
+    height: 70px;
+  }
 }
