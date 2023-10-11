@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id='contact-me'
-      className='text-center max-w-[600px] my-0 mx-auto h-[51vh]'
+      className='text-center max-w-[600px] my-0 mx-auto h-[63vh]'
     >
       <h3 className='font-semibold text-lg lg:text-3xl text-center mb-2 lg:my-5'>
         What's Next?

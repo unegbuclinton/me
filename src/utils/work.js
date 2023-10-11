@@ -2,12 +2,20 @@ import image1 from '../assets/images/facechain.png'
 import image2 from '../assets/images/biggorilla.png'
 import image3 from '../assets/images/aiode.png'
 import living from '../assets/images/living.png'
-import image4 from '../assets/images/casa.png'
+import clamp from '../assets/images/clamp.png'
 import tictactoe from '../assets/images/tictactoe.png'
 import loruki from '../assets/images/loruki.png'
 import image5 from '../assets/images/nicelyformed.png'
 import estore from '../assets/images/e-store.png'
 export const projects = [
+  {
+    title: 'Clamp',
+    desc: 'Clamp is a customer retention software that helps businesses retain their existing customers and reduce business churn rate.',
+    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
+    img: clamp,
+    live: 'https://www.clamployalty.com/',
+    repo: '',
+  },
   {
     title: 'Nicelyformed',
     desc: 'Nicelyformed is AI-powered form builder that helps you create forms in minutes. it used AI to generate forms with users prompt and also gives the user the ability to create form from scratch.',
@@ -16,14 +24,7 @@ export const projects = [
     live: 'https://www.nicelyformed.com/',
     repo: '',
   },
-  {
-    title: 'Casa Colombia',
-    desc: 'Casa colomiba is a web application designed to give buyers and sellers flexibiliity in the real estate sector to buy and sell their properties, with the help of google map buyers can easily sell property location and also request for tour (Built for the colombian market).',
-    technologies: 'REACT, TYPESCRIPT, TAILWIND CSS, REDUX',
-    img: image4,
-    live: 'https://casa-colombia.vercel.app/',
-    repo: '',
-  },
+
   {
     title: 'Aiode',
     desc: 'Aiode is a platform where you can manage and track your health activities at ease.You can now focus on other activities as your health record is seamlesslly tracked',
@@ -51,6 +52,14 @@ export const projects = [
   },
 ]
 
+// {
+//   title: 'Casa Colombia',
+//   desc: 'Casa colomiba is a web application designed to give buyers and sellers flexibiliity in the real estate sector to buy and sell their properties, with the help of google map buyers can easily sell property location and also request for tour (Built for the colombian market).',
+//   technologies: 'REACT, TYPESCRIPT, TAILWIND CSS, REDUX',
+//   img: image4,
+//   live: 'https://casa-colombia.vercel.app/',
+//   repo: '',
+// },
 export const archivedprojects = [
   {
     title: 'Estore',
