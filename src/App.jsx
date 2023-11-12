@@ -11,7 +11,8 @@ const App = () => {
     Aos.init({ duration: 500 })
   }, [])
   return (
-    <div className='h-screen font-roboto lg:pt-20'>
+    <div className='max-w-[1200px] my-0 mx-auto font-roboto lg:pt-20'>
+      <div className='dot-background fixed top-0 bottom-0 left-0 right-0'></div>
       <img
         src={img}
         alt='me'
