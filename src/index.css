@@ -11,9 +11,15 @@
 }
 
 body {
-  background-color: #e9ecef;
   font-family: 'Alkatra', 'cursive';
   color: #1c1a1a;
+  height: 100vh;
+}
+
+.dot-background {
+  width: 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="2" height="2" fill="%23E9E9E9" /></svg>');
+  background-size: 8px 8px;
 }
 .dark {
   background-color: #1c1a1a;
@@ -95,10 +101,10 @@ body {
   font-weight: 600;
 }
 
-.glass_button-text_closed:not(:last-child) {
+/* .glass_button-text_closed:not(:last-child) {
   color: transparent;
   font-weight: 600;
-}
+} */
 
 .glass_button:nth-child(1) {
   --index: 0;
@@ -157,7 +163,7 @@ body {
 .menu-burger {
   width: 20px;
   height: 3px;
-  background: #81878c;
+  background: #fff;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -168,7 +174,7 @@ body {
   position: absolute;
   width: 20px;
   height: 3px;
-  background: #81878c;
+  background: #fff;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
 }

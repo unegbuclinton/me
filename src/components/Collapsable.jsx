@@ -31,7 +31,7 @@ const Collapsable = () => {
     },
     {
       item: 'Contact',
-      index: 'z-[5]',
+      index: 'z-[4]',
       offset: -100,
       to: 'contact-me',
     },
@@ -57,8 +57,8 @@ const Collapsable = () => {
     >
       <div
         onClick={getPdf}
-        className={` transition-opacity glass_button-resume ${
-          open ? 'opacity-100' : 'opacity-0'
+        className={`transition-opacity glass_button-resume ${
+          open ? 'opacity-100' : 'opacity-0 '
         } duration-200`}
       >
         Resume
@@ -67,11 +67,15 @@ const Collapsable = () => {
         className={`glass_button-wrapper flex flex-col-reverse items-center relative`}
       >
         <div
+          className='bg-black h-12 w-12 rounded-full flex justify-center cursor-pointer mt-4'
           onClick={() => {
             setOpen((prev) => !prev)
           }}
-          className={`menu-burger ${open ? 'open' : ''} mt-5 animate-pulse `}
-        ></div>
+        >
+          <div
+            className={`menu-burger ${open ? 'open' : ''} mt-6 animate-pulse `}
+          ></div>
+        </div>
 
         {menuItems?.map(({ item, index, to, offset }, idx) => (
           <Link
@@ -89,7 +93,7 @@ const Collapsable = () => {
             className={`glass_button ${index} ${
               open ? 'glass_button-text_open' : 'glass_button-text_closed '
             } transition-opacity duration-1000 ${
-              open ? 'opacity-100' : 'opacity-0'
+              open ? 'opacity-100' : 'opacity-0 hidden'
             } `}
           >
             {item}
