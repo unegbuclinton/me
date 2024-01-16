@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     title: 'Nicelyformed',
-    desc: 'Nicelyformed is AI-powered form builder that helps you create forms in minutes. it used AI to generate forms with users prompt and also gives the user the ability to create form from scratch.',
+    desc: 'Nicelyformed is AI-powered form builder that helps you create forms in minutes with the help of AI. ',
     technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
     img: image5,
     live: 'https://www.nicelyformed.com/',
