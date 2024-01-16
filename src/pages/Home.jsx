@@ -14,7 +14,6 @@ const Home = () => {
     return () => clearTimeout(timer)
   }, [])
   if (delay) return <PreLoader />
-  return <div></div>
 }
 
 export default Home

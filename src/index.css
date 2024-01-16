@@ -199,3 +199,8 @@ body {
 .menu-burger.open.menu-burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
+
+.work-card:hover img {
+  transform: translateY(-10px);
+  transition: 0.6s all;
+}
