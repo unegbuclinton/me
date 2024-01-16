@@ -1,10 +1,14 @@
 import React from 'react'
-import { biggorilla, curacel, zuri, fiver, Clamp } from '../utils/utils'
+import { biggorilla, curacel, Clamp, Nicelyformed } from '../utils/utils'
 import Tab from './Tab'
 import WorkTemplate from './WorkTemplate'
 
 const Experience = () => {
   const exp = [
+    {
+      title: 'Nicelyformed',
+      component: <WorkTemplate works={Nicelyformed} />,
+    },
     {
       title: 'Clamp ',
       component: <WorkTemplate works={Clamp} />,
@@ -14,8 +18,6 @@ const Experience = () => {
       component: <WorkTemplate works={biggorilla} />,
     },
     { title: 'Curacel ', component: <WorkTemplate works={curacel} /> },
-    { title: 'Zuri ', component: <WorkTemplate works={zuri} /> },
-    { title: 'Fiver ', component: <WorkTemplate works={fiver} /> },
   ]
   return (
     <div id='experience' className='lg:px-24 max-w-[985px] my-0 mx-auto'>
