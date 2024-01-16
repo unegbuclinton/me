@@ -9,19 +9,19 @@ import image5 from '../assets/images/nicelyformed.png'
 import estore from '../assets/images/e-store.png'
 export const projects = [
   {
-    title: 'Clamp',
-    desc: 'Clamp is a customer retention software that helps businesses retain their existing customers and reduce business churn rate.',
-    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
-    img: clamp,
-    live: 'https://www.clamployalty.com/',
-    repo: '',
-  },
-  {
     title: 'Nicelyformed',
     desc: 'Nicelyformed is AI-powered form builder that helps you create forms in minutes with the help of AI. ',
     technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
     img: image5,
     live: 'https://www.nicelyformed.com/',
+    repo: '',
+  },
+  {
+    title: 'Clamp',
+    desc: 'Clamp is a customer retention software that helps businesses retain their existing customers and reduce business churn rate(MVP).',
+    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
+    img: clamp,
+    live: 'https://www.clamployalty.com/',
     repo: '',
   },
 
@@ -33,14 +33,6 @@ export const projects = [
     live: 'https://develop--legendary-creponne-6e772f.netlify.app/',
     repo: '',
   },
-  {
-    title: 'FaceChain',
-    desc: 'This is a media platform that enhance the growth of the crypto community, through, posts, crypto pools, crypto predictions, family pool etc',
-    technologies: 'REACT, TAILWIND CSS, REDUX',
-    img: image1,
-    live: 'https://facechain.vercel.app/',
-    repo: 'https://github.com/unegbuclinton/facechain',
-  },
 
   {
     title: 'Biggorillaapps',
@@ -49,6 +41,14 @@ export const projects = [
     img: image2,
     live: 'https://www.biggorillaapps.com/',
     repo: '',
+  },
+  {
+    title: 'FaceChain',
+    desc: 'This is a media platform that enhance the growth of the crypto community, through, posts, crypto pools, crypto predictions, family pool etc',
+    technologies: 'REACT, TAILWIND CSS, REDUX',
+    img: image1,
+    live: 'https://facechain.vercel.app/',
+    repo: 'https://github.com/unegbuclinton/facechain',
   },
 ]
 

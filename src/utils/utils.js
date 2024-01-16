@@ -20,9 +20,30 @@ export const Clamp = {
   ],
 }
 
+export const Nicelyformed = {
+  companyName: 'Nicelyformed',
+  duration: 'January 2023 - June 2023',
+  history:
+    'Nicelyformed is an AI form builder that helps you build forms in minutes with natural language, and also help analyse responses and give insights through the help of AI.',
+  duties: [
+    {
+      tasks:
+        'Led UI design implementation and integrated Nicelyformed AI form builder software.',
+    },
+    {
+      tasks:
+        'Actively wrote UI and functional test using Playwright and Jest respectively which help ensure code quality and cut down bugs up to 25%. ',
+    },
+    {
+      tasks:
+        'Collaborated with team to update backend code, implemented APIs using Node.js and Express, resulting in a 20% improvement in product shipping..',
+    },
+  ],
+}
+
 export const biggorilla = {
   companyName: 'Biggorrillapps',
-  duration: 'February 2022- February 2023',
+  duration: 'July 2021- January 2023',
   history:
     "Biggorillaaps is a development agency in London consisting of developers and designers with great passion and skillset tilted towards the development of client's ideas and work.",
   duties: [
@@ -44,30 +65,9 @@ export const biggorilla = {
   ],
 }
 
-export const fiver = {
-  companyName: 'Fiver',
-  duration: 'Sep 2021 - April 2022',
-  history:
-    " In this period I worked with clients on freelance, building and bringing to life client's idea. It also involves revamping and optimizing codes",
-  duties: [
-    {
-      tasks:
-        'Integrated and Utilized Instagram API to populate client side getting influencers posts and likes using Vite and tailwind css.',
-    },
-    {
-      tasks:
-        'Proposed and Developed a enterpreneural assessment solution using react and Swagger for the backend. ',
-    },
-    {
-      tasks:
-        'Engineered a split-fare project, solving the use case of splitting bills and expenses using react and styled-components',
-    },
-  ],
-}
-
 export const curacel = {
   companyName: 'Curacel',
-  duration: 'March 2020 - April 2021',
+  duration: 'March 2019 - April 2021',
   history:
     ' Curacel is an insurtech startup that deals with claim automation and   fraud detection.Also raised a seed funding of $3million.',
   duties: [
@@ -84,26 +84,26 @@ export const curacel = {
   ],
 }
 
-export const zuri = {
-  companyName: ' Frontend developer @ Zuri',
-  duration: 'April 2019 - August 2019',
-  history:
-    'Zuri is a global talent acquisition company that helps organizations from around the world discover and hire the best talent availabl.',
-  duties: [
-    {
-      tasks:
-        'Collaborated with a small team of student designers to spearhead a new brand Product idea for small and medium businesses.',
-    },
-    {
-      tasks:
-        ' Worked closely with backend engineers to document and integrate REST APIs and present o the client side with seamless user Experience.',
-    },
-    {
-      tasks:
-        'Peer programming with teammates to translate UI design  to pixel perfect web applications using React and other technologies',
-    },
-  ],
-}
+// export const zuri = {
+//   companyName: ' Frontend developer @ Zuri',
+//   duration: 'April 2019 - August 2019',
+//   history:
+//     'Zuri is a global talent acquisition company that helps organizations from around the world discover and hire the best talent availabl.',
+//   duties: [
+//     {
+//       tasks:
+//         'Collaborated with a small team of student designers to spearhead a new brand Product idea for small and medium businesses.',
+//     },
+//     {
+//       tasks:
+//         ' Worked closely with backend engineers to document and integrate REST APIs and present o the client side with seamless user Experience.',
+//     },
+//     {
+//       tasks:
+//         'Peer programming with teammates to translate UI design  to pixel perfect web applications using React and other technologies',
+//     },
+//   ],
+// }
 
 export const navLinks = [
   { title: 'My Experience', offset: -100, to: 'experience' },
