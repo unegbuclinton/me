@@ -12,7 +12,7 @@ const Contact = () => {
       </h3>
       <h1 className='font-semibold text-3xl lg:text-xl'>Get in Touch</h1>
       <p className='mt-3 mb-7 lg:mb-4'>
-        I’m currently open to new opportunities.If you Further questions or
+        I’m currently open to new opportunities.If you have Further questions or
         considering me for a role please leave a message and I'll get back to
         you as soon as I can.
       </p>
