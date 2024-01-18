@@ -19,7 +19,7 @@ const Me = () => {
         data-aos-easing='ease-in-sine'
         className='text-center w-full lg:w-[80%] my-0 mx-auto lg:text-xl'
       >
-        I started my Tech journey in 2020 where I joined a small Tech community.
+        I started my Tech journey in 2019 where I joined a small Tech community.
         Being part of the team fueled my interest about the Web, it's
         superpowers and how it can be used to improve life for others. Fast
         forward to today, I have had the opportunity to work with great teams
