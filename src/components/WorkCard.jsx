@@ -14,7 +14,7 @@ const WorkCard = ({ img, ProjectTitle, desc, repo, technologies, live }) => {
         <p>{desc}</p>
         <div className='flex items-center gap-3 mt-2'>
           {repo.length > 1 && (
-            <a href={live} className='flex gap-2 items-center py-3 pr-2 '>
+            <a href={repo} className='flex gap-2 items-center py-3 pr-2 '>
               Source code <AiFillGithub size={18} />
             </a>
           )}
