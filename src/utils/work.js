@@ -6,6 +6,7 @@ import clamp from '../assets/images/clamp.png'
 import tictactoe from '../assets/images/tictactoe.png'
 import loruki from '../assets/images/loruki.png'
 import image5 from '../assets/images/nicelyformed.png'
+import image6 from '../assets/images/basicon.png'
 import estore from '../assets/images/e-store.png'
 export const projects = [
   {
@@ -14,6 +15,14 @@ export const projects = [
     technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
     img: image5,
     live: 'https://www.nicelyformed.com/',
+    repo: '',
+  },
+  {
+    title: 'Basicons',
+    desc: 'Basic Icons for product designs and development. ',
+    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
+    img: image6,
+    live: 'https://basicions.xyz',
     repo: '',
   },
   {
@@ -34,14 +43,14 @@ export const projects = [
     repo: '',
   },
 
-  {
-    title: 'Biggorillaapps',
-    desc: 'Big Gorilla Apps is a leading design and development agency that can bring your ideas to life. Help with ideas and creativity to bring your ideas to life.',
-    technologies: 'REACT, BOOTSRAP, REDUX',
-    img: image2,
-    live: 'https://www.biggorillaapps.com/',
-    repo: '',
-  },
+  // {
+  //   title: 'Biggorillaapps',
+  //   desc: 'Big Gorilla Apps is a leading design and development agency that can bring your ideas to life. Help with ideas and creativity to bring your ideas to life.',
+  //   technologies: 'REACT, BOOTSRAP, REDUX',
+  //   img: image2,
+  //   live: 'https://www.biggorillaapps.com/',
+  //   repo: '',
+  // },
   {
     title: 'FaceChain',
     desc: 'This is a media platform that enhance the growth of the crypto community, through, posts, crypto pools, crypto predictions, family pool etc',
