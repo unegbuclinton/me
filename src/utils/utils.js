@@ -2,7 +2,7 @@ import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from '../assets/svgs'
 
 export const Clamp = {
   companyName: 'Clamp',
-  duration: 'February 2023 - Present',
+  duration: 'January 2023 - June 2023',
   history:
     ' Clamp is a early startup, that provide customer retention solution for medium and large businesses, platform to create business campaign to keep customers in the hook of repurchase. ',
   duties: [
@@ -22,7 +22,7 @@ export const Clamp = {
 
 export const Nicelyformed = {
   companyName: 'Nicelyformed',
-  duration: 'January 2023 - June 2023',
+  duration: 'September 2023 - Present',
   history:
     'Nicelyformed is an AI form builder that helps you build forms in minutes with natural language, and also help analyse responses and give insights through the help of AI.',
   duties: [
