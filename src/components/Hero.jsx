@@ -2,8 +2,12 @@ import './comp.css'
 import me from '../assets/images/me.png'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
+import pdfFile from '../document/resume.pdf'
 
 const Hero = () => {
+  const getPdf = () => {
+    window.open(pdfFile)
+  }
   return (
     <div id='hero'>
       <div className=' lg:flex items-center pb-6'>
@@ -35,16 +39,24 @@ const Hero = () => {
             data-aos-duration='2500'
             className='w-full flex justify-center lg:justify-start mt-5'
           >
-            <Link
-              to='contact-me'
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              className='p-2 cursor-pointer text-sm font-semibold border border-onyx hover:bg-onyx hover:text-flash-white rounded-lg'
-            >
-              Get in Touch
-            </Link>
+            <div className='flex gap-2'>
+              <Link
+                to='contact-me'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className='p-2 cursor-pointer text-sm font-semibold border border-onyx hover:bg-onyx hover:text-flash-white rounded-lg'
+              >
+                Get in Touch
+              </Link>
+              <p
+                onClick={getPdf}
+                className='p-2 cursor-pointer text-sm font-semibold border border-onyx hover:bg-onyx hover:text-flash-white rounded-lg'
+              >
+                Download Resume
+              </p>
+            </div>
           </div>
         </div>
       </div>
