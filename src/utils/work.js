@@ -22,7 +22,7 @@ export const projects = [
     desc: 'Basic Icons for product designs and development. ',
     technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
     img: image6,
-    live: 'https://basicions.xyz',
+    live: 'https://basicons.xyz/',
     repo: '',
   },
   {
