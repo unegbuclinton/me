@@ -2,6 +2,7 @@ import React from 'react'
 import { biggorilla, curacel, Clamp, Nicelyformed } from '../utils/utils'
 import Tab from './Tab'
 import WorkTemplate from './WorkTemplate'
+import { DPIconArrowRight } from '../assets/svgs'
 
 const Experience = () => {
   const exp = [
@@ -24,8 +25,11 @@ const Experience = () => {
       <h1 className='font-extrabold text-lg lg:text-3xl text-center my-10'>
         Experience
       </h1>
-      <p className='block md:hidden text-sm mb-3 animate-pulse'>
-        Scroll right....
+      <p className='flex gap-2 items-center md:hidden text-sm mb-3 animate-pulse font-semibold'>
+        Scroll right
+        <span>
+          <DPIconArrowRight />
+        </span>
       </p>
       <Tab tabs={exp} />
       <div className='w-full lg:w-[60%] border-b border-grey my-0 mx-auto pt-16' />
