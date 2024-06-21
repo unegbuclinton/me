@@ -53,7 +53,7 @@ const Collapsable = () => {
   return (
     <div
       ref={sideNavRef}
-      className='fixed right-4 bottom-[385px] h-5 md:h-[80px] z-20'
+      className='fixed left-4 bottom-[385px] h-5 md:h-[80px] z-20'
     >
       <div
         onClick={getPdf}
