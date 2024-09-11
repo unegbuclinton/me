@@ -1,9 +1,10 @@
 import image1 from '../assets/images/facechain.png'
-import image2 from '../assets/images/biggorilla.png'
 import image3 from '../assets/images/aiode.png'
 import living from '../assets/images/living.png'
 import clamp from '../assets/images/clamp.png'
 import tictactoe from '../assets/images/tictactoe.png'
+import waverok from '../assets/images/waverok.png'
+import pawnshop from '../assets/images/pawn-shop.png'
 import loruki from '../assets/images/loruki.png'
 import image5 from '../assets/images/nicelyformed.png'
 import image6 from '../assets/images/basicon.png'
@@ -11,16 +12,16 @@ import estore from '../assets/images/e-store.png'
 export const projects = [
   {
     title: 'Nicelyformed',
-    desc: 'Nicelyformed is AI-powered form builder that helps you create forms in minutes with the help of AI. ',
-    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
+    desc: 'Nicelyformed is an AI-powered form builder that enables you to create forms in minutes. By leveraging AI, it generates relevant questions automatically, eliminating the need for manual input and streamlining the form creation process.',
+    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS, NODEJS',
     img: image5,
     live: 'https://www.nicelyformed.com/',
     repo: '',
   },
   {
     title: 'Basicons',
-    desc: 'Basic Icons for product designs and development. ',
-    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS',
+    desc: 'Basic Icons is a comprehensive icon library designed to enhance product design and development. It offers a wide range of high-quality icons, enabling designers and developers to seamlessly integrate them into their projects, streamlining the creative process and elevating user experiences.',
+    technologies: 'NEXTJS, TYPESCRIPT, TAILWIND CSS, NODEJS',
     img: image6,
     live: 'https://basicons.xyz/',
     repo: '',
@@ -33,7 +34,23 @@ export const projects = [
     live: 'https://www.clamployalty.com/',
     repo: '',
   },
+  {
+    title: 'Waverok',
+    desc: "Waverok is a dynamic startup specializing in AI, payment solutions, and technology consulting, leveraging cutting-edge AI technology and strategic consulting expertise to deliver high level solution to client's needs",
+    technologies: 'VUEJS, NATIVECSS',
+    img: waverok,
+    live: 'https://www.waverok.com/',
+    repo: '',
+  },
 
+  {
+    title: 'Pawnshop',
+    desc: 'Pawnshop is a platform revolutionizing the way people access to urgent financing by leveraging luxury assets, offering a seamless and efficient solution for those in need of immediate funds.',
+    technologies: 'NEXTJS, ZOD, CMS',
+    img: pawnshop,
+    live: 'pawnshopbyblu.com',
+    repo: '',
+  },
   {
     title: 'Aiode',
     desc: 'Aiode is a platform where you can manage and track your health activities at ease.You can now focus on other activities as your health record is seamlesslly tracked',
@@ -51,6 +68,7 @@ export const projects = [
   //   live: 'https://www.biggorillaapps.com/',
   //   repo: '',
   // },
+
   {
     title: 'FaceChain',
     desc: 'This is a media platform that enhance the growth of the crypto community, through, posts, crypto pools, crypto predictions, family pool etc',

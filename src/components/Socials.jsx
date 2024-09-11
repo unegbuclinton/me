@@ -48,7 +48,7 @@ const Socials = () => {
   }, [])
 
   return (
-    <div className='bg-transparent flex flex-col gap-5 fixed top-[60%] left-3 lg:left-10 z-5'>
+    <div className='bg-transparent flex flex-col gap-5 fixed top-[20%] left-3 lg:left-10 z-10'>
       {socialLinks?.map(({ icon, to }, idx) => {
         return (
           <a

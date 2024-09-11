@@ -45,8 +45,9 @@ const Me = () => {
       <ul className='pl-12 list'>
         <li data-aos='fade-right'>Javascript(ES6)</li>
         <li data-aos='fade-right'>Typrscript</li>
-        <li data-aos='fade-left'>React</li>
+        <li data-aos='fade-left'>ReactJs</li>
         <li data-aos='fade-right'>NextJs</li>
+        <li data-aos='fade-right'>VueJs</li>
         <li data-aos='fade-left'>NodeJs</li>
         <li data-aos='fade-right'>Redux toolKit</li>
         <li data-aos='fade-left'>Tailwind</li>

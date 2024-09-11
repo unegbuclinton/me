@@ -1,5 +1,3 @@
-import { DPIcongitNav, DPIconLinkedin, DPIconTwitter } from '../assets/svgs'
-
 export const Clamp = {
   companyName: 'Clamp',
   duration: 'January 2023 - June 2023',
