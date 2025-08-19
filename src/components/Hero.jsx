@@ -21,7 +21,7 @@ const Hero = () => {
             <h1 className=' text-2xl mt-5 font-bold'>HI,</h1>
             <h2 className=' text-2xl font-bold'>I'm Clinton a</h2>
             <TypeAnimation
-              sequence={['Frontend Developer', 1000, 'UI Designer', 1500]}
+              sequence={['Software Engineer', 1000, 'UI Designer', 1500]}
               speed={50}
               style={{ fontSize: '24px', fontWeight: '900' }}
               wrapper='span'
